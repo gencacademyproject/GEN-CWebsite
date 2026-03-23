@@ -1,34 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEN-C Academy</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #ffffff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            text-align: center;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GEN-C Academy</title>
+
+<style>
+    :root {
+        --genc-green: #3A8E3C;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+        background: #ffffff;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4vh;
+    }
+
+    img {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    h1 {
+        color: var(--genc-green);
+        font-weight: 400;
+        line-height: 1.2;
+        text-align: center;
+        font-size: clamp(1.4rem, 3vw, 2.4rem);
+    }
+
+    @media (max-width: 480px) {
+        .container {
+            padding: 8vw 6vw;
+            gap: 3vh;
         }
+
         img {
-            max-width: 80%;
-            height: auto;
+            max-width: 90%;
         }
-        h1 {
-            margin-top: 20px;
-            font-size: 2rem;
-            font-weight: normal;
-        }
-    </style>
+    }
+</style>
 </head>
+
 <body>
-    <img src="GenC.png" alt="GEN-C Logo">
-    <h1>Future Home of the Gen-C Academy</h1>
+    <div class="container">
+        <img src="GenC.png" alt="GEN-C Logo">
+        <h1>Future Home of the Gen-C Academy</h1>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GEN-C Academy</title>
+
+<style>
+    :root {
+        --genc-green: #3A8E3C;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+        background: #ffffff;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4vh;
+    }
+
+    img {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    h1 {
+        color: var(--genc-green);
+        font-weight: 400;
+        line-height: 1.2;
+        text-align: center;
+        font-size: clamp(1.4rem, 3vw, 2.4rem);
+    }
+
+    @media (max-width: 480px) {
+        .container {
+            padding: 8vw 6vw;
+            gap: 3vh;
+        }
+
+        img {
+            max-width: 90%;
+        }
+    }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="GenC.png" alt="GEN-C Logo">
+        <h1>Future Home of the Gen-C Academy</h1>
+    </div>
 </body>
 </html>
